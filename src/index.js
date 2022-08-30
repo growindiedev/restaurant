@@ -1,2 +1,3 @@
-import "./style.css";
+import "./style.scss";
+
 alert("woof woof");
