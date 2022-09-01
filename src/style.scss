@@ -9,9 +9,6 @@
   color: white;
 }
 
-// .container * { 
-//   border: 1px solid green;
-// } 
 
 .container {
   height: 100vh;
@@ -47,10 +44,10 @@
   justify-content: center;
 }
 
-.about, .menu {
-  background-color: white;
-  color: black;
-}
+// .about, .menu {
+//   background-color: white;
+//   color: black;
+// }
 
 .homeContainer {
   font-size: 1.2rem;
@@ -62,11 +59,10 @@
   justify-content: center;
   text-align: center;
   /* height: 50%;  */
-  border: 5px solid burlywood;
+  // border: 3px solid burlywood;
+  // border-radius: 1rem;
   padding: 2rem;
-}
 
-.home {
   img {
     border-radius: 50%;
     height: 15rem;
@@ -74,6 +70,24 @@
     display: block;
     content: url("dog-cheff.jpeg");
   }
+}
+
+.about {
+  color: black;
+}
+
+.aboutContainer {
+  font-size: 1.2rem;
+  color: white;
+  display: grid;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+  /* height: 50%;  */
+  // border: 5px solid burlywood;
+  padding: 2rem;
 }
 
 
