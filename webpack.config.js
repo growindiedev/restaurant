@@ -33,6 +33,10 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
+      {
         test: /\.scss$/i,
         use: [
           // Creates `style` nodes from JS strings
@@ -42,10 +46,6 @@ module.exports = {
           // Compiles Sass to CSS
           "sass-loader",
         ],
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: "asset/resource",
       },
     ],
   },

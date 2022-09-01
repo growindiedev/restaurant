@@ -29,6 +29,33 @@
 
 .content {
   overflow-y: scroll;
+  background-image: url('./src/food.jpeg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.type1 {
+  font-size: 1.2rem;
+  color: white;
+  display: grid;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+  /* height: 50%;  */
+  border: 5px solid white;
+  padding: 2rem;
+}
+
+.home img {
+  border-radius: 50%;
+  height: 15rem;
+  width: 15rem;
+  display: block;
+
 }
 
 .footer {
