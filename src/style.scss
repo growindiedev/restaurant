@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
 
 
 * {
@@ -44,10 +45,10 @@
   justify-content: center;
 }
 
-// .about, .menu {
-//   background-color: white;
-//   color: black;
-// }
+.menu {
+  background-color: white;
+  color: black;
+}
 
 .homeContainer {
   font-size: 1.2rem;
@@ -58,9 +59,6 @@
   gap: 1rem;
   justify-content: center;
   text-align: center;
-  /* height: 50%;  */
-  // border: 3px solid burlywood;
-  // border-radius: 1rem;
   padding: 2rem;
 
   img {
@@ -85,8 +83,6 @@
   gap: 1rem;
   justify-content: center;
   text-align: center;
-  /* height: 50%;  */
-  // border: 5px solid burlywood;
   padding: 2rem;
 }
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
 
 
 * {
@@ -8,6 +9,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
 /* .container * { 
   border: 1px solid green;
 } */
@@ -16,6 +18,10 @@
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr 8fr 1fr;
+  background-image: url('./src/food.jpeg');
+  background-size: cover;
+
+
 }
 
 .navbar {
@@ -29,14 +35,33 @@
 
 .content {
   overflow-y: scroll;
-  background-image: url('./src/food.jpeg');
-  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.type1 {
+.menu {
+  background-color: white;
+  flex-direction: column;
+  justify-content: start;
+  align-items: ;
+  /* display: block; */
+  
+}
+
+.menu-item {
+  max-width: 30rem;
+  text-align: center;
+}
+
+.menu-item * {
+  margin-top: 1rem;
+}
+
+
+
+
+/* .type1 {
   font-size: 1.2rem;
   color: white;
   display: grid;
@@ -45,27 +70,54 @@
   gap: 1rem;
   justify-content: center;
   text-align: center;
-  /* height: 50%;  */
   border: 5px solid white;
   padding: 2rem;
-}
+} */
 
 .home img {
   border-radius: 50%;
   height: 15rem;
   width: 15rem;
   display: block;
+}
 
+.golden {
+  color: #c59d5f;
+}
+
+.gray {
+  color: #262626;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: -72px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cursive {
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 96px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+p {
+  line-height: 150%;
+}
+
+hr {
+  width: 280px;
+  border: 2px solid #c59d5f;
+  margin: 24px auto;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: burlywood;
-}
+  border-top: 2px solid #c59d5f;
 
-.footer p {
-  
-  /* background-color: aqua; */
 }
