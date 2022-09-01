@@ -87,6 +87,64 @@
 }
 
 
+.menu {
+  background-color: white;
+  flex-direction: column;
+  justify-content: start;
+
+}
+
+.menu-item {
+  max-width: 30rem;
+  text-align: center;
+}
+
+.menu-item * {
+  margin-top: 1rem;
+}
+
+
+.golden {
+  color: #c59d5f;
+}
+
+.gray {
+  color: #262626;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: -72px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cursive {
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 96px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+p {
+  line-height: 150%;
+}
+
+
+
+hr {
+  width: 280px;
+  border-top: 0.2rem solid #c59d5f;
+  margin: 24px auto;  margin: 24px auto;
+}
+
+.head-hr {
+  width: 300px;
+  border-top: 0.4rem solid #c59d5f;
+  margin: 24px auto;
+  //background-color: #c59d5f;
+}
 
 .footer {
   display: flex;
